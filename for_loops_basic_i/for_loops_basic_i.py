@@ -1,7 +1,7 @@
 for num in range(151):
     print(num)
 
-for num in range(5,1000,5):
+for num in range(5,1001,5):
     print(num)
 
 for num in range(1,101,1):
