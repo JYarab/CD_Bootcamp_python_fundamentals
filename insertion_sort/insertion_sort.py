@@ -1,4 +1,4 @@
-#Code with print breakdown
+# Code with print breakdown
 
 # sortMe = [6,5,3,1,8,7,2,4]
 
@@ -24,6 +24,22 @@
 
 
 # Prints removed
+
+# sortMe = [6,5,3,1,8,7,2,4]
+
+# def insertionSort(list):
+#     for idx in range (1,len(list)):
+#         temp = list[idx]
+#         if temp > list[idx-1]:
+#             continue
+#         while temp < list[idx-1] and idx > 0:
+#             list[idx] = list[idx-1]
+#             idx -= 1
+#         list[idx] = temp
+#     return list
+
+# print(insertionSort(sortMe))
+
 
 sortMe = [6,5,3,1,8,7,2,4]
 
